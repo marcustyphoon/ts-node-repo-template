@@ -1,3 +1,5 @@
+#!/usr/bin/env node --experimental-transform-types --disable-warning=ExperimentalWarning
+
 import process from 'node:process';
 
 console.log('waiting one second...');
