@@ -4,7 +4,7 @@
     "test": "pnpm eslint && pnpm prettier",
     "eslint": "eslint src",
     "prettier": "prettier src --check",
-    "example": "node --experimental-transform-types src/example.ts"
+    "example": "node --experimental-transform-types --disable-warning=ExperimentalWarning src/example.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.24.0",
