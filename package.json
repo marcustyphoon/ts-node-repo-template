@@ -7,7 +7,7 @@
     "example": "node --experimental-transform-types --disable-warning=ExperimentalWarning src/example.ts"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.2",
+    "@eslint/js": "^9.39.4",
     "@tsconfig/node-lts": "^24.0.0",
     "@tsconfig/node-ts": "^23.6.4",
     "@types/node": "^25.5.2",
