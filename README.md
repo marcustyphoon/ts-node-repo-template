@@ -1,6 +1,6 @@
 Experimental repo template for coding Node scripts in pure typescript esm.
 
-Uses pnpm, eslint@9, typescript-eslint, and prettier.
+Uses eslint@9, typescript-eslint, and prettier.
 
 This is set up to run scripts using `node --experimental-transform-types` in Node.js ≥22.6 (see https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/#the---erasablesyntaxonly-option), but using a loader like [tsx](https://github.com/privatenumber/tsx) may be more practical.
 
